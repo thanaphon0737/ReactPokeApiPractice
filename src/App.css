@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+nav {
+  font-size: 20px;
+  color: #B1AFFF;
+}
+footer {
+  /* font-family: "Sedgwick Ave", cursive; */
+}
+.body {
+  background-color: #FFE9D0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.submit-button:after {
+  content: '>>';
+  opacity: 0;  
+  right: -20px;
+  transition: 0.5s;
+}
+
+.submit-button:hover{
+  
+  padding-left:8px;
+}
+
+.submit-button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+
+.pokeball:hover{
+  content: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png");
+  margin-top: 10px;
+  /* height: 100%; */
+}

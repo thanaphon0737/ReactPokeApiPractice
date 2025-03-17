@@ -1,0 +1,8 @@
+@import "tailwindcss";
+* {
+  box-sizing: border-box;
+}
+html {
+    font-family: "Bungee", sans-serif;
+    
+}
