@@ -33,9 +33,8 @@ function Home() {
         console.log(err);
       }
     }
-    setTimeout(()=>{
+   
       fetch();
-    },500)
     
   }, []);
   return (
