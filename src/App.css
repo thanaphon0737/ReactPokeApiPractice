@@ -20,13 +20,21 @@ footer {
   right: -20px;
   transition: 0.5s;
 }
-
-.submit-button:hover{
+.load-button, .submit-button {
+  cursor: pointer;
+}
+.load-button:after {
+  content: ' ...';
+  opacity: 0;  
+  right: -20px;
+  transition: 0.5s;
+}
+.submit-button:hover, .load-button:hover{
   
   padding-left:8px;
 }
 
-.submit-button:hover:after {
+.submit-button:hover:after, .load-button:hover:after {
   opacity: 1;
   right: 10px;
 }
