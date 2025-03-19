@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="body">
       <Header />
-      <div className="grow flex mt-20 mx-35 mb-8 justify-center">
+      <div className="flex mt-20 mx-35 mb-8 justify-center">
         <p className="w-1/2 text-center">
           👋 Hi, I'm @thanaphon0737 👀 I'm interested in ...Web Development,
           Mobile Development and Data Science include IoT & Big Data
