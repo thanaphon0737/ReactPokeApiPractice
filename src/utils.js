@@ -26,4 +26,21 @@ function getTypeColor(type) {
   function formatNumber(num) {
     return num.toString().padStart(4, "0");
   }
-export {getTypeColor,formatNumber}
+function getBackGroundColor(color){
+  if(!color) return "#ddd";
+  const backgroundColor = {
+    black: "#52575D",
+    blue: "#C6E7FF",
+    brown: "#B17F59",
+    gray: "#DBDBDB",
+    green: "#D0E8C5",
+    pink: "#FDB7EA",
+    purple: "#CDC1FF",
+    red: "#FF8080",
+    white: "#FBFBFB",
+    yellow: "#FFF9BF",
+
+  }
+  return backgroundColor[color.toLowerCase()] || "#ddd";
+}
+export {getTypeColor,formatNumber,getBackGroundColor};

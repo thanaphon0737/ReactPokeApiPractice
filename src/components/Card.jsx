@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 import "../pokemon.css";
-import { getTypeColor, formatNumber } from "../utlis";
+import { getTypeColor, formatNumber } from "../utils.js";
 function Card(props) {
 
   return (
