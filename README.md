@@ -5,7 +5,7 @@
   -  Link to website: [Pokedex clone](https://react-poke-api-practice.vercel.app/).
 ## This product was developed by React js + Tailwind CSS
   -  fecth data with axios
-  -  using PokeAPI endpoint for data
+  -  using [PokeAPI](https://pokeapi.co/) endpoint for data
   -  styling with Tailwind CSS
 ## Stack
   -  React.js
@@ -16,7 +16,7 @@
   - pokemon info
     ![image](https://github.com/user-attachments/assets/34cebc0a-2fe1-49d2-a4b0-dc715835e080)
 ## Installation
-  reqired `node js` [Link](https://nodejs.org/en/download).
+  reqired [NodeJs](https://nodejs.org/en/download)
   ```
     git clone https://github.com/thanaphon0737/ReactPokeApiPractice.git
     cd [Project Directory]
